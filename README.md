@@ -18,12 +18,6 @@ This Streamlit dashboard provides an intuitive interface for analyzing financial
 - **🎨 Finary-style interface** : Elegant dark design with soft color palette
 - **⚡ Optimized performance** : Data caching and fast loading
 
-## 🚀 Live Demo
-
-**Try the dashboard live:** [https://revolut-financial-crime-dashboard.streamlit.app](https://revolut-financial-crime-dashboard.streamlit.app)
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://revolut-financial-crime-dashboard.streamlit.app)
-
 ## 🚀 Installation
 
 ### Prerequisites
