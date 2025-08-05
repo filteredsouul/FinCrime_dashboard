@@ -143,4 +143,4 @@ For any questions or issues:
 
 ---
 
-**Revolut Financial Crime Dashboard v1.0.0 - 2024** 
+**Revolut Financial Crime Dashboard v1.0.0 - 2024**
