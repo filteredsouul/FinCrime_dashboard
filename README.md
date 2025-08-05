@@ -11,8 +11,7 @@ This Streamlit dashboard provides an intuitive interface for analyzing financial
 
 # Data Overview
 
-This project uses 3 structured datasets stored in CSV format and later loaded into a SQLite database.
-These datasets form the foundation of the fraud monitoring analysis.
+This project uses 3 structured datasets originally sourced from Kaggle (here : "https://www.kaggle.com/datasets/andrejzuba/revolutassignment") , stored in CSV format and later loaded into a SQLite database. These datasets form the foundation of the fraud monitoring analysis.
 
 Each file plays a distinct role in understanding user behavior, transaction flows, and fraudulent patterns.
 
