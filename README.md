@@ -27,19 +27,8 @@ This Streamlit dashboard provides an intuitive interface for analyzing financial
 ### Install dependencies
 
 ```bash
-# Clone the repository
-git clone https://github.com/filteredsouul/FinCrime_dashboard.git
-cd FinCrime_dashboard
-
 # Install dependencies
 pip install -r requirements.txt
-```
-
-### Launch the dashboard
-
-```bash
-# Launch the dashboard
-streamlit run streamlit_app.py
 ```
 
 The dashboard will be accessible at: `http://localhost:8501`
