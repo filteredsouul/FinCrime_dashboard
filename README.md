@@ -6,6 +6,9 @@ A modern and elegant dashboard for financial crime monitoring and analysis.
 
 This Streamlit dashboard provides an intuitive interface for analyzing financial transaction data and detecting fraudulent activities. It combines key metrics, interactive visualizations, and modern design for an optimal user experience.
 
+<img width="1632" height="2671" alt="image" src="https://github.com/user-attachments/assets/9d1f1aaf-cecc-460c-8636-ebeb5e91daaa" />
+
+
 ### ✨ Key Features
 
 - **📈 Real-time KPIs** : Active users, transactions, volume, fraud rate
