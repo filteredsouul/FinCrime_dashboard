@@ -135,12 +135,4 @@ The dashboard can be customized via:
 - Fraud percentages are calculated on total volume
 - Weekly granularity with fallback to daily data
 
-## 📞 Support
-
-For any questions or issues:
-- Open an issue on GitHub
-- Contact the development team
-
----
-
 **Revolut Financial Crime Dashboard v1.0.0 - 2024**
