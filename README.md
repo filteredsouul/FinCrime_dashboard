@@ -31,8 +31,6 @@ This Streamlit dashboard provides an intuitive interface for analyzing financial
 pip install -r requirements.txt
 ```
 
-The dashboard will be accessible at: `http://localhost:8501`
-
 ## 📁 Project Structure
 
 ```
