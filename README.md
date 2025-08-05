@@ -9,6 +9,62 @@ This Streamlit dashboard provides an intuitive interface for analyzing financial
 <img width="1632" height="2671" alt="image" src="https://github.com/user-attachments/assets/9d1f1aaf-cecc-460c-8636-ebeb5e91daaa" />
 <img width="514" height="1468" alt="image" src="https://github.com/user-attachments/assets/6c99cd71-bb3f-43de-a496-f4f9a7953e12" />
 
+### Data Overview
+===============
+
+This project uses 3 structured datasets stored in CSV format and later loaded into a SQLite database.
+These datasets form the foundation of the fraud monitoring analysis.
+
+Each file plays a distinct role in understanding user behavior, transaction flows, and fraudulent patterns.
+
+
+transactions.csv
+----------------
+
+This file contains the full log of financial transactions performed by Revolut users.
+
+Columns:
+- id: Unique identifier for each transaction
+- user_id: Reference to the user who made the transaction
+- created_date: Date and time of the transaction (UTC)
+- type: Type of transaction (CARD_PAYMENT, TRANSFER, etc.)
+- state: Status of the transaction (COMPLETED, FAILED, etc.)
+- amount_gbp: Transaction amount converted to GBP
+- currency: Original currency of the transaction
+
+Transaction Types:
+- CARD_PAYMENT: Card payment made with a Revolut card
+- TRANSFER: Outgoing transfer to a bank account
+- TOPUP: Incoming funds to a Revolut account
+- EXCHANGE: Currency conversion
+- ATM: Cash withdrawal from an ATM
+- FEE: Charges for services (e.g., insurance, subscriptions)
+
+Transaction States:
+- COMPLETED: Finalized and reflected in user's balance
+- DECLINED / FAILED: Blocked due to technical or financial reasons (e.g. insufficient funds)
+- REVERTED: Completed but later reversed (used for verification e.g., new top-up source)
+
+
+users.csv
+---------
+
+Contains user profile information, focusing on registration metadata.
+
+Columns:
+- id: Unique user identifier
+- created_date: When the user registered (UTC)
+- country: Country selected by the user at signup
+
+
+fraudsters.csv
+--------------
+
+A short dataset listing users flagged as fraudsters for this task.
+
+Columns:
+- user_id: ID of a user considered fraudulent
+
 
 ###  Key Features
 
