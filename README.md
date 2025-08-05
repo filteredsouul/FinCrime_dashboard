@@ -1,6 +1,6 @@
 # 🏦 Revolut Financial Crime Dashboard
 
-A modern and elegant dashboard for financial crime monitoring and analysis, inspired by Finary design with a premium dark interface.
+A modern and elegant dashboard for financial crime monitoring and analysis.
 
 ## 📊 Overview
 
