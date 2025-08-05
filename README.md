@@ -62,7 +62,7 @@ Columns:
 - user_id: ID of a user considered fraudulent
 
 
-###  Key Features
+#  Key Features
 
 - ** Real-time KPIs** : Active users, transactions, volume, fraud rate
 - ** Advanced filters** : Week selection, countries, transaction types with All/Clear buttons
@@ -70,7 +70,7 @@ Columns:
 - ** User-centric interface** : clear design with soft color palette
 - ** Optimized performance** : Data caching and fast loading
 
-##  Installation
+#  Installation
 
 ### Prerequisites
 - Python 3.10+
