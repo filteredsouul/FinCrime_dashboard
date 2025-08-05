@@ -9,8 +9,7 @@ This Streamlit dashboard provides an intuitive interface for analyzing financial
 <img width="1632" height="2671" alt="image" src="https://github.com/user-attachments/assets/9d1f1aaf-cecc-460c-8636-ebeb5e91daaa" />
 <img width="514" height="1468" alt="image" src="https://github.com/user-attachments/assets/6c99cd71-bb3f-43de-a496-f4f9a7953e12" />
 
-### Data Overview
-===============
+# Data Overview
 
 This project uses 3 structured datasets stored in CSV format and later loaded into a SQLite database.
 These datasets form the foundation of the fraud monitoring analysis.
@@ -18,8 +17,7 @@ These datasets form the foundation of the fraud monitoring analysis.
 Each file plays a distinct role in understanding user behavior, transaction flows, and fraudulent patterns.
 
 
-transactions.csv
-----------------
+### transactions.csv
 
 This file contains the full log of financial transactions performed by Revolut users.
 
@@ -46,8 +44,7 @@ Transaction States:
 - REVERTED: Completed but later reversed (used for verification e.g., new top-up source)
 
 
-users.csv
----------
+### users.csv
 
 Contains user profile information, focusing on registration metadata.
 
@@ -57,8 +54,7 @@ Columns:
 - country: Country selected by the user at signup
 
 
-fraudsters.csv
---------------
+### fraudsters.csv
 
 A short dataset listing users flagged as fraudsters for this task.
 
