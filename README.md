@@ -134,5 +134,3 @@ The dashboard can be customized via:
 - Amounts are in GBP (British pounds)
 - Fraud percentages are calculated on total volume
 - Weekly granularity with fallback to daily data
-
-**Revolut Financial Crime Dashboard v1.0.0 - 2024**
