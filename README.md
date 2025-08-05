@@ -10,15 +10,15 @@ This Streamlit dashboard provides an intuitive interface for analyzing financial
 <img width="514" height="1468" alt="image" src="https://github.com/user-attachments/assets/6c99cd71-bb3f-43de-a496-f4f9a7953e12" />
 
 
-### ✨ Key Features
+###  Key Features
 
-- **📈 Real-time KPIs** : Active users, transactions, volume, fraud rate
-- **🎯 Advanced filters** : Week selection, countries, transaction types with All/Clear buttons
-- **📊 Interactive visualizations** : Plotly charts with dark design
-- **🎨 Finary-style interface** : Elegant dark design with soft color palette
-- **⚡ Optimized performance** : Data caching and fast loading
+- ** Real-time KPIs** : Active users, transactions, volume, fraud rate
+- ** Advanced filters** : Week selection, countries, transaction types with All/Clear buttons
+- ** Interactive visualizations** : Plotly charts with dark design
+- ** User-centric interface** : clear design with soft color palette
+- ** Optimized performance** : Data caching and fast loading
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -58,16 +58,15 @@ FInCrime/
 │   ├── query_eda.sql                   # SQL query for data extraction
 │   ├── db_setup.py                     # SQLite database setup
 │   └── dl_data_script.py               # Data download script
-├── streamlit_app.py                     # Streamlit Cloud entry point
 ├── requirements.txt                     # Python dependencies
 ├── README.md                           # Main documentation
 └── docs/
     └── TECHNICAL_DOCUMENTATION.md      # Technical documentation
 ```
 
-## 🎨 Design and UX
+##  Design and UX
 
-### Finary Color Palette
+### Color Palette
 - **Main background** : `#0F0F0F` (dark anthracite)
 - **Cards/panels** : `#1C1C1C` (very dark gray)
 - **Main text** : `#EDEDED` (soft white)
@@ -82,7 +81,7 @@ FInCrime/
 - Generous spacing and fluid layout
 - Styled components (buttons, filters, charts)
 
-## 📊 Detailed Features
+## Detailed Features
 
 ### Main KPIs
 - **Active users** : Total number of unique users
