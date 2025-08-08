@@ -9,6 +9,26 @@ This Streamlit dashboard provides an intuitive interface for analyzing financial
 <img width="1632" height="2671" alt="image" src="https://github.com/user-attachments/assets/9d1f1aaf-cecc-460c-8636-ebeb5e91daaa" />
 <img width="514" height="1468" alt="image" src="https://github.com/user-attachments/assets/6c99cd71-bb3f-43de-a496-f4f9a7953e12" />
 
+## 📄 Executive Summary
+
+This dashboard offers a clear, real-time view of Revolut’s transaction activity and fraud trends, supporting faster detection, investigation, and operational decision-making.  
+
+**Highlights for period 2019-W13 to 2019-W19:**  
+- **Scale**: 482,810 active users, 1,068,361 transactions, £36,417,924 total volume.  
+- **Fraud rate**: 0.77% — low proportionally, but significant in absolute terms.  
+- **Peak risk window**: Fraudulent amounts reached their highest in W14–W15 before steadily declining.  
+- **High-risk transaction type**: TOPUP operations account for the largest share of fraudulent activity.  
+- **Geographic hotspots**: Ireland (IE) and Cyprus (CY) lead in both fraudulent amounts and volumes.  
+
+**Recommended actions:**  
+1. Strengthen controls on TOPUP transactions (KYC, source-of-funds, velocity limits).  
+2. Apply targeted fraud rules to IE and CY markets.  
+3. Investigate drivers of the W14–W15 fraud peak.  
+4. Implement automated alerts for sudden changes in fraud rates or amounts.  
+
+➡ For a more detailed analysis and recommendations, see the **[Full Insights Report](docs/INSIGHTS_REPORT.md)**.
+
+
 # Data Overview
 
 This project uses 3 structured datasets originally sourced from Kaggle (here : https://www.kaggle.com/datasets/andrejzuba/revolutassignment) , stored in CSV format and later loaded into a SQLite database. These datasets form the foundation of the fraud monitoring analysis.
