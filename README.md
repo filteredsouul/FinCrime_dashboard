@@ -26,7 +26,7 @@ This dashboard offers a clear, real-time view of Revolut’s transaction activit
 3. Investigate drivers of the W14–W15 fraud peak.  
 4. Implement automated alerts for sudden changes in fraud rates or amounts.  
 
-➡ For a more detailed analysis and recommendations, see the **[Full Insights Report](docs/INSIGHTS_REPORT.md)**.
+➡ For a more detailed analysis and recommendations, see the **[Full Insights Report](docs/Full_Insights_Report.md)**.
 
 
 # Data Overview
